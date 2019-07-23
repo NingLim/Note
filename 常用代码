@@ -2,4 +2,18 @@
 ## 双引号与单引号的使用规范
 在平时的时候，能使用双引号就用双引号。
 在拼接字符串的时候，使用单引号裹住。
+# git的使用
+##本地仓库上传到GitHub
+· git init
+· git add .
+· git commit -m "first commit"
+· git remote add origin https://github.com/address
+· git push -u origin master
+##更新本地仓库到GitHub
+· git add .
+· git commit -m "更新"
+· git push -u origin master
+##拉取GitHub项目到本地
+· git clone address
+
 
